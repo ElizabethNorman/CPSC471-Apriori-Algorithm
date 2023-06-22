@@ -22,7 +22,7 @@ There should be 2 .java and 2 .class files contained in this folder. They are na
 	- Apriori
 	- ItemSet
 
-In your command line set to the folder containing these 6 files and the datasets, run the program with:
+In your command line set to the folder containing these 4 files and the datasets, run the program with:
 
 java Apriori filenameofyourchoice.txt 0.xx
 
