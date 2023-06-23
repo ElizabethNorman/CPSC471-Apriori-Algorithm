@@ -1,6 +1,6 @@
 # CPSC471 Apriori Algorithm
 
-Fast implementation of the Apriori Algorithm for Data Mining. This is a classic data mining algorithm, improved slightly to produce fast results. I call my improvement "bucketing": as new itemsets are generated, the itemsets are sorted and then clustered together (put into buckets) by the first item in the itemset. Itemsets are clustered together via HashMap<Integer, ArrayList \<ItemSet>> with the lowest item being the key. With this technique, as we scan the transaction database (transactions are sorted), we can skip over huge amounts of itemsets at once if they do not contain the key.
+Fast implementation of the Apriori Algorithm for Data Mining. This is a classic data mining algorithm, improved slightly to produce fast results. I call my improvement "bucketing": as new itemsets are generated, the itemsets are sorted and then clustered together (put into buckets) by the first item in the itemset. Itemsets are clustered together via HashMap<Integer, ArrayList \<ItemSet>> with the lowest item being the key. With this technique, as we scan the transaction database (transactions are sorted), we can skip over huge amounts of itemsets at once if the transaction does not contain the key.
 
 The datasets provided by the professor are included in this repository, varying in size and range of item IDs. Their "difficulty" is reflected in their runtimes. Minimum support threshold demonstrated in the table below are the same numbers that the professor had used to test our algorithms. 
 
