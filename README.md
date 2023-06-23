@@ -15,7 +15,7 @@ Runtimes:
 |connect.txt|0.98|7.113|
 
 ## Submission readMe
-### This is the readMe submitted alongside the assignment
+### This is the readMe I submitted alongside the assignment, note that class files are not provided in this repository.
 
 There should be 2 .java and 2 .class files contained in this folder. They are named:
 
